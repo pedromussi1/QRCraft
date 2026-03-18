@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About - QRCraft</title>
+  <meta name="description" content="About QRCraft — a free online QR code generator.">
+  <meta name="google-adsense-account" content="ca-pub-7940189312499670">
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7940189312499670" crossorigin="anonymous"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+    *{margin:0;padding:0;box-sizing:border-box}
+    :root{--bg:#0a0a0f;--surface:#12121a;--border:#2a2a3e;--text:#e0e0e8;--text-muted:#888898;--primary:#7c3aed;--sans:'Inter',-apple-system,sans-serif}
+    [data-theme="light"]{--bg:#f5f5f8;--surface:#ffffff;--border:#d8d8e0;--text:#1a1a2e;--text-muted:#6b6b80;--primary:#6d28d9}
+    body{font-family:var(--sans);background:var(--bg);color:var(--text);min-height:100vh;display:flex;flex-direction:column;align-items:center}
+    main{max-width:720px;width:100%;padding:2rem 1.5rem;flex:1}
+    h1{font-size:2rem;font-weight:700;margin-bottom:0.5rem}
+    .subtitle{color:var(--text-muted);font-size:0.85rem;margin-bottom:2rem}
+    h2{font-size:1rem;font-weight:600;margin:1.5rem 0 0.5rem}
+    p,li{font-size:0.9rem;color:var(--text-muted);line-height:1.7;margin-bottom:0.75rem}
+    ul{padding-left:1.2rem;margin-bottom:0.75rem}
+    a{color:var(--primary);text-decoration:none}a:hover{text-decoration:underline}
+    .back{display:inline-block;margin-bottom:1.5rem;font-size:0.85rem}
+    footer{width:100%;text-align:center;padding:1.5rem;color:var(--text-muted);font-size:0.78rem;border-top:1px solid var(--border)}
+    footer a{color:var(--primary);text-decoration:none;margin:0 0.5rem}
+  </style>
+</head>
+<body>
+  <main>
+    <a href="/" class="back">&larr; Back to QRCraft</a>
+    <h1>About QRCraft</h1>
+    <p class="subtitle">Free QR Code Generator</p>
+
+    <p>QRCraft is a free, open-source QR code generator built for speed and privacy. Create customizable QR codes for URLs, text, email addresses, phone numbers, Wi-Fi credentials, and more &mdash; all without creating an account or uploading your data to a server.</p>
+
+    <h2>Why QRCraft?</h2>
+    <ul>
+      <li><strong>100% Client-Side</strong> &mdash; Everything runs in your browser. No data leaves your device.</li>
+      <li><strong>Customizable</strong> &mdash; Custom colors, logo embedding, adjustable size, and error correction levels.</li>
+      <li><strong>Batch Generation</strong> &mdash; Generate up to 50 QR codes at once and download them as a ZIP.</li>
+      <li><strong>Multiple Formats</strong> &mdash; Export as PNG for web or SVG for print.</li>
+      <li><strong>No Account Required</strong> &mdash; No sign-up, no watermarks, no limits.</li>
+      <li><strong>Free &amp; Open Source</strong> &mdash; Source code available on <a href="https://github.com/pedromussi1/QRCraft" target="_blank" rel="noopener noreferrer">GitHub</a>.</li>
+    </ul>
+
+    <h2>Who Made This?</h2>
+    <p>QRCraft was created by <a href="https://github.com/pedromussi1" target="_blank" rel="noopener noreferrer">Pedro Mussi</a>, a developer building free web tools. Check out the other tools in the collection:</p>
+    <ul>
+      <li><a href="https://github.com/pedromussi1/format-converter" target="_blank" rel="noopener noreferrer">FormatConverter</a> &mdash; Image format converter</li>
+      <li><a href="https://github.com/pedromussi1/CSVWizard" target="_blank" rel="noopener noreferrer">CSVWizard</a> &mdash; CSV viewer, editor &amp; converter</li>
+      <li><a href="https://github.com/pedromussi1/PaletteGen" target="_blank" rel="noopener noreferrer">PaletteGen</a> &mdash; Color palette generator</li>
+      <li><a href="https://github.com/pedromussi1/JSONToolbox" target="_blank" rel="noopener noreferrer">JSONToolbox</a> &mdash; JSON formatter &amp; validator</li>
+      <li><a href="https://github.com/pedromussi1/PDF2Text" target="_blank" rel="noopener noreferrer">PDF2Text</a> &mdash; PDF to text converter</li>
+    </ul>
+
+    <h2>Contact</h2>
+    <p>For bug reports, feature requests, or questions, please open an issue on the <a href="https://github.com/pedromussi1/QRCraft" target="_blank" rel="noopener noreferrer">GitHub repository</a>.</p>
+  </main>
+  <footer>
+    <a href="/">QRCraft</a> &middot;
+    <a href="/privacy.html">Privacy</a> &middot;
+    <a href="/terms.html">Terms</a> &middot;
+    <a href="/about.html">About</a>
+  </footer>
+  <script>
+    const t = localStorage.getItem('qrcraft-theme') || 'dark';
+    document.documentElement.setAttribute('data-theme', t);
+  </script>
+</body>
+</html>

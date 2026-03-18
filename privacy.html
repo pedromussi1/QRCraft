@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy - QRCraft</title>
+  <meta name="description" content="QRCraft privacy policy — how we handle your data.">
+  <meta name="google-adsense-account" content="ca-pub-7940189312499670">
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7940189312499670" crossorigin="anonymous"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+    *{margin:0;padding:0;box-sizing:border-box}
+    :root{--bg:#0a0a0f;--surface:#12121a;--border:#2a2a3e;--text:#e0e0e8;--text-muted:#888898;--primary:#7c3aed;--sans:'Inter',-apple-system,sans-serif}
+    [data-theme="light"]{--bg:#f5f5f8;--surface:#ffffff;--border:#d8d8e0;--text:#1a1a2e;--text-muted:#6b6b80;--primary:#6d28d9}
+    body{font-family:var(--sans);background:var(--bg);color:var(--text);min-height:100vh;display:flex;flex-direction:column;align-items:center}
+    main{max-width:720px;width:100%;padding:2rem 1.5rem;flex:1}
+    h1{font-size:2rem;font-weight:700;margin-bottom:0.5rem}
+    .subtitle{color:var(--text-muted);font-size:0.85rem;margin-bottom:2rem}
+    h2{font-size:1rem;font-weight:600;margin:1.5rem 0 0.5rem}
+    p,li{font-size:0.9rem;color:var(--text-muted);line-height:1.7;margin-bottom:0.75rem}
+    ul{padding-left:1.2rem;margin-bottom:0.75rem}
+    a{color:var(--primary);text-decoration:none}a:hover{text-decoration:underline}
+    .back{display:inline-block;margin-bottom:1.5rem;font-size:0.85rem}
+    footer{width:100%;text-align:center;padding:1.5rem;color:var(--text-muted);font-size:0.78rem;border-top:1px solid var(--border)}
+    footer a{color:var(--primary);text-decoration:none;margin:0 0.5rem}
+  </style>
+</head>
+<body>
+  <main>
+    <a href="/" class="back">&larr; Back to QRCraft</a>
+    <h1>Privacy Policy</h1>
+    <p class="subtitle">Last updated: March 2026</p>
+
+    <h2>1. Data Processing</h2>
+    <p>QRCraft processes all data entirely in your browser. No text, URLs, images, or QR codes you create are ever sent to our servers. Your data stays on your device at all times.</p>
+
+    <h2>2. Data Storage</h2>
+    <p>We store only your theme preference (dark/light mode) in your browser's localStorage. No personal information, accounts, or usage data is collected or stored.</p>
+
+    <h2>3. Advertising</h2>
+    <p>This site uses Google AdSense to display advertisements. Google may use cookies to serve ads based on your prior visits to this site or other websites. You can opt out of personalized advertising by visiting <a href="https://www.google.com/settings/ads" target="_blank" rel="noopener noreferrer">Google Ads Settings</a>.</p>
+
+    <h2>4. Cookies</h2>
+    <p>We do not set our own cookies. Third-party services (such as Google AdSense) may set cookies for advertising purposes. You can manage cookie preferences through your browser settings.</p>
+
+    <h2>5. Third-Party Services</h2>
+    <p>This site loads the following external resources:</p>
+    <ul>
+      <li>Google Fonts (Inter, JetBrains Mono) for typography</li>
+      <li>Google AdSense for advertising</li>
+      <li>qrcode-generator library from jsDelivr CDN for QR code generation</li>
+    </ul>
+
+    <h2>6. Children's Privacy</h2>
+    <p>This site is not directed at children under 13. We do not knowingly collect any personal information from children.</p>
+
+    <h2>7. Changes</h2>
+    <p>We may update this privacy policy from time to time. Changes will be reflected on this page with an updated date.</p>
+
+    <h2>8. Contact</h2>
+    <p>If you have questions about this privacy policy, you can reach us via the <a href="https://github.com/pedromussi1/QRCraft" target="_blank" rel="noopener noreferrer">GitHub repository</a>.</p>
+  </main>
+  <footer>
+    <a href="/">QRCraft</a> &middot;
+    <a href="/privacy.html">Privacy</a> &middot;
+    <a href="/terms.html">Terms</a> &middot;
+    <a href="/about.html">About</a>
+  </footer>
+  <script>
+    const t = localStorage.getItem('qrcraft-theme') || 'dark';
+    document.documentElement.setAttribute('data-theme', t);
+  </script>
+</body>
+</html>
