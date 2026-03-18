@@ -2,7 +2,7 @@
 
 A free, client-side QR code generator with customizable colors, logo embedding, batch generation, and PNG/SVG export.
 
-**[Live Demo](https://qrcraft-pedromussi1s-projects.vercel.app/)**
+**[Live Demo](https://qr-craft-pedromussi1s-projects.vercel.app/)**
 
 ## Features
 
